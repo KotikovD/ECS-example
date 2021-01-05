@@ -12,6 +12,30 @@
           <e p="Entitas.xml" t="Include" />
           <e p="LICENSE.txt" t="Include" />
         </e>
+        <e p="Generated" t="Include">
+          <e p="Contexts.cs" t="Include" />
+          <e p="Feature.cs" t="Include" />
+          <e p="Game" t="Include">
+            <e p="Components" t="Include">
+              <e p="GameComponentsColorComponent.cs" t="Include" />
+              <e p="GameComponentsSpeedComponent.cs" t="Include" />
+              <e p="GameHealthComponent.cs" t="Include" />
+              <e p="GamePositionComponent.cs" t="Include" />
+            </e>
+            <e p="GameAttribute.cs" t="Include" />
+            <e p="GameComponentsLookup.cs" t="Include" />
+            <e p="GameContext.cs" t="Include" />
+            <e p="GameEntity.cs" t="Include" />
+            <e p="GameMatcher.cs" t="Include" />
+          </e>
+          <e p="Input" t="Include">
+            <e p="InputAttribute.cs" t="Include" />
+            <e p="InputComponentsLookup.cs" t="Include" />
+            <e p="InputContext.cs" t="Include" />
+            <e p="InputEntity.cs" t="Include" />
+            <e p="InputMatcher.cs" t="Include" />
+          </e>
+        </e>
         <e p="NaughtyAttributes" t="Include">
           <e p="Scripts" t="Include">
             <e p="Core" t="Include">
@@ -168,6 +192,30 @@
             <e p="!Core" t="Include">
               <e p="NOTICES.txt" t="Include" />
             </e>
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="Components" t="Include">
+            <e p="ColorComponent.cs" t="Include" />
+            <e p="HealthComponent.cs" t="Include" />
+            <e p="PositionComponent.cs" t="Include" />
+            <e p="SpeedComponent.cs" t="Include" />
+          </e>
+          <e p="Helpers" t="Include">
+            <e p="GameDataKeeper.cs" t="Include" />
+            <e p="PathKeeper.cs" t="Include" />
+          </e>
+          <e p="MonoBehaviour" t="Include">
+            <e p="GameController.cs" t="Include" />
+          </e>
+          <e p="ScriptableObjects" t="Include">
+            <e p="Unit.cs" t="Include" />
+          </e>
+          <e p="Systems" t="Include">
+            <e p="InitializePlayerSystem.cs" t="Include" />
+            <e p="LogHealthSystem.cs" t="Include" />
+            <e p="ReactiveLogHealthSystem.cs" t="Include" />
+            <e p="RootSystem.cs" t="Include" />
           </e>
         </e>
       </e>
