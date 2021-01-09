@@ -20,28 +20,119 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c61c581d-6386-4389-8bd5-ef94261d2866" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Components/ColorComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Components/ColorComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Components/PositionComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Components/PositionComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Components/SpeedComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Components/SpeedComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Helpers.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Helpers/PathKeeper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Helpers/PathKeeper.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Systems.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/InitializePlayerSystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/InitializePlayerSystem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/LogHealthSystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/LogHealthSystem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/ReactiveLogHealthSystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/ReactiveLogHealthSystem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EcsExample.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EcsExample/AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EcsExample/AssemblyInfo.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EcsExample/EcsExample.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EcsExample/EcsExample.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EcsExample/Generated/Game/Components/GameDestroyedComponent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EcsExample/Generated/Game/Components/GameSpeedComponent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EcsExample/Scripts/Components/DestroyedComponent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EcsExample/Scripts/Components/DestroyedComponent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EcsExample/Scripts/Components/HealthComponent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EcsExample/Scripts/Helpers/PathKeeper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EcsExample/Scripts/Systems/DestroyEntitySystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EcsExample/Scripts/Systems/DestroyEntitySystem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EcsExample/Scripts/Systems/GameSystems.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EcsExample/Scripts/Systems/HealthSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EcsExample/Scripts/Systems/HealthSystem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EcsExample/Scripts/Systems/InitializePlayerSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EcsExample/Scripts/Systems/LogHealthSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EcsExample/Scripts/Systems/ReactiveLogHealthSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EcsExample/Scripts/Tests.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EcsExample/Scripts/Tests/CheckDescribeByDeath.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EcsExample/Scripts/Tests/CheckDescribeByDeath.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EcsExample/Scripts/Tests/Tests.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EcsExample/Scripts/Tests/Tests.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EcsExample/Scripts/Tests/UnitsLifecycle.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EcsExample/Scripts/Tests/UnitsLifecycle.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ECS-example/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ECS-example/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ECS-example/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ECS-example/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ECS-example/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ECS-example/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Generated/Game/GameComponentsLookup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Generated/Game/GameComponentsLookup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/ProBuilderDefault2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/ProBuilderDefault2.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Generated.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Generated.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Generated/Contexts.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Generated/Contexts.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Generated/Contexts.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Generated/Contexts.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Generated/Feature.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Generated/Feature.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Generated/Feature.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Generated/Feature.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Generated/Game.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Generated/Game.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Generated/Game/Components.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Generated/Game/Components.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Generated/Game/Components/GameComponentsColorComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Generated/Game/Components/GameColorComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Generated/Game/Components/GameComponentsColorComponent.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Generated/Game/Components/GameColorComponent.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Generated/Game/Components/GameComponentsSpeedComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Generated/Game/Components/GameSpeedComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Generated/Game/Components/GameComponentsSpeedComponent.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Generated/Game/Components/GameDestroyedComponent.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Generated/Game/Components/GameHealthComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Generated/Game/Components/GameHealthComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Generated/Game/Components/GameHealthComponent.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Generated/Game/Components/GameHealthComponent.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Generated/Game/Components/GamePositionComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Generated/Game/Components/GamePositionComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Generated/Game/Components/GamePositionComponent.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Generated/Game/Components/GamePositionComponent.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Generated/Game/GameAttribute.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Generated/Game/GameAttribute.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Generated/Game/GameAttribute.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Generated/Game/GameAttribute.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Generated/Game/GameComponentsLookup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Generated/Game/GameComponentsLookup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Generated/Game/GameComponentsLookup.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Generated/Game/GameComponentsLookup.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Generated/Game/GameContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Generated/Game/GameContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Generated/Game/GameContext.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Generated/Game/GameContext.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Generated/Game/GameEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Generated/Game/GameEntity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Generated/Game/GameEntity.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Generated/Game/GameEntity.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Generated/Game/GameMatcher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Generated/Game/GameMatcher.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Generated/Game/GameMatcher.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Generated/Game/GameMatcher.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Generated/Input.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Generated/Input.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Generated/Input/InputAttribute.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Generated/Input/InputAttribute.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Generated/Input/InputAttribute.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Generated/Input/InputAttribute.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Generated/Input/InputComponentsLookup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Generated/Input/InputComponentsLookup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Generated/Input/InputComponentsLookup.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Generated/Input/InputComponentsLookup.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Generated/Input/InputContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Generated/Input/InputContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Generated/Input/InputContext.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Generated/Input/InputContext.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Generated/Input/InputEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Generated/Input/InputEntity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Generated/Input/InputEntity.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Generated/Input/InputEntity.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Generated/Input/InputMatcher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Generated/Input/InputMatcher.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Generated/Input/InputMatcher.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Generated/Input/InputMatcher.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Resources.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Resources/DOTweenSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Resources/DOTweenSettings.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Data.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Resources/Data.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Data/Unit.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Data/Unit.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Resources/Materials.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/ProBuilderDefault2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Resources/Materials/ProBuilderDefault2.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/ProBuilderDefault2.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Resources/Materials/ProBuilderDefault2.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Scenes.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Scenes/SampleScene.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Scenes/SampleScene.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Scenes/SampleScene/LightingData.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/LightingData.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Scenes/SampleScene/LightingData.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/ReflectionProbe-0.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Scenes/SampleScene/ReflectionProbe-0.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/ReflectionProbe-0.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Scenes/SampleScene/ReflectionProbe-0.exr.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Scripts.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Components.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Scripts/Components.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Components/ColorComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Scripts/Components/ColorComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Components/ColorComponent.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Scripts/Components/ColorComponent.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Components/HealthComponent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Components/HealthComponent.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Scripts/Components/HealthComponent.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Components/PositionComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Scripts/Components/PositionComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Components/PositionComponent.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Scripts/Components/PositionComponent.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Components/SpeedComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Scripts/Components/SpeedComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Components/SpeedComponent.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Scripts/Components/SpeedComponent.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Helpers.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Scripts/Helpers.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Helpers/GameDataKeeper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Scripts/Helpers/GameDataKeeper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Helpers/GameDataKeeper.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Scripts/Helpers/GameDataKeeper.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Helpers/PathKeeper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Helpers/PathKeeper.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Scripts/Helpers/PathKeeper.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MonoBehaviour.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Scripts/MonoBehaviour.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MonoBehaviour/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Scripts/MonoBehaviour/GameController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MonoBehaviour/GameController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Scripts/MonoBehaviour/GameController.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Scripts/ScriptableObjects.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Unit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Scripts/ScriptableObjects/PlayerUnit.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Unit.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Scripts/ScriptableObjects/PlayerUnit.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Systems.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Scripts/Systems.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Systems/InitializePlayerSystem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Systems/InitializePlayerSystem.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Scripts/Systems/InitializePlayerSystem.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Systems/LogHealthSystem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Systems/LogHealthSystem.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Scripts/Systems/LogHealthSystem.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Systems/ReactiveLogHealthSystem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Systems/ReactiveLogHealthSystem.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Scripts/Systems/ReactiveLogHealthSystem.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Systems/RootSystem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Systems/RootSystem.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EcsExample/Scripts/Systems/GameSystems.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenny.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Jenny.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,25 +143,44 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Components/HealthComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BFFF7C0B-1952-412C-B811-8DDDD204A124/03/6e932f63/Entity.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Components/HealthComponent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Components/PositionComponent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Unit.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Unit.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Helpers/PathKeeper.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MonoBehaviour/GameDataKeeper.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Components/SpeedComponent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Components/ColorComponent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/HealthSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/ReactiveLogHealthSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/LogHealthSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/InitializePlayerSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MonoBehaviour/GameController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/DestroyedComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/HealthComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/SpeedComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Helpers/PathKeeper.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Helpers/GameDataKeeper.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MonoBehaviour/GameController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/RootSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/HealthSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Generated/Game/Components/GameComponentsColorComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Generated/Game/Components/GameComponentsSpeedComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Generated/Game/GameComponentsLookup.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/InitializePlayerSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/LogHealthSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/ReactiveLogHealthSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Tests/UnitLifecycle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Generated/Game/Components/GameDestroyedComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Generated/Game/GameMatcher.cs" />
+        <option value="$PROJECT_DIR$/Assets/Generated/Game/GameEntity.cs" />
+        <option value="$PROJECT_DIR$/Assets/EcsExample/Scripts/AssemblyInfo.cs" />
+        <option value="$PROJECT_DIR$/Assets/EcsExample/Scripts/Helpers/GameDataKeeper.cs" />
+        <option value="$PROJECT_DIR$/Assets/EcsExample/Scripts/Tests/UnitLifecycle.cs" />
+        <option value="$PROJECT_DIR$/Assets/EcsExample/Scripts/Systems/HealthSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/EcsExample/Scripts/ScriptableObjects/PlayerUnit.cs" />
+        <option value="$PROJECT_DIR$/Assets/EcsExample/Scripts/Helpers/PathKeeper.cs" />
+        <option value="$PROJECT_DIR$/Assets/EcsExample/Scripts/Systems/DestroyEntitySystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/EcsExample/Scripts/Systems/GameSystems.cs" />
+        <option value="$PROJECT_DIR$/Assets/EcsExample/Scripts/Tests/UnitsLifecycle.cs" />
+        <option value="$PROJECT_DIR$/Assets/EcsExample/Scripts/Tests/CheckDescribeByDeath.cs" />
       </list>
     </option>
   </component>
@@ -97,10 +207,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="3196">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="3196" />
+      <option name="pid" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -117,6 +227,8 @@
       <updated>1609787624716</updated>
       <workItem from="1609787641449" duration="1398000" />
       <workItem from="1609831376763" duration="4149000" />
+      <workItem from="1610041112471" duration="1968000" />
+      <workItem from="1610186297481" duration="3316000" />
     </task>
     <servers />
   </component>
@@ -209,9 +321,32 @@
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state width="1670" height="375" key="GridCell.Tab.3.right/0.0.2560.1050@0.0.2560.1050" timestamp="1609832860732" />
-    <state x="408" y="244" key="RiderGenerateDialog" timestamp="1609834778077">
+    <state x="408" y="244" key="RiderGenerateDialog" timestamp="1609873658216">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="408" y="244" key="RiderGenerateDialog/0.0.2560.1050@0.0.2560.1050" timestamp="1609834778077" />
+    <state x="408" y="244" key="RiderGenerateDialog/0.0.2560.1050@0.0.2560.1050" timestamp="1609873658216" />
+    <state x="265" y="245" key="run.anything.popup" timestamp="1610189021122">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="265" y="245" key="run.anything.popup/0.0.2560.1050@0.0.2560.1050" timestamp="1610189021122" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/EcsExample/Scripts/Systems/InitializePlayerSystem.cs</url>
+          <line>17</line>
+          <properties documentPath="C:\Projects\ECS-example\Assets\EcsExample\Scripts\Systems\InitializePlayerSystem.cs" initialLine="17">
+            <startOffsets>
+              <option value="373" />
+            </startOffsets>
+            <endOffsets>
+              <option value="420" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
