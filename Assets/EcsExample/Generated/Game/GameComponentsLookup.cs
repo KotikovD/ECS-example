@@ -18,14 +18,16 @@ public static class GameComponentsLookup {
     public const int Destroyed = 7;
     public const int Health = 8;
     public const int HealthListener = 9;
-    public const int Player = 10;
-    public const int Position = 11;
-    public const int PositionListener = 12;
-    public const int Speed = 13;
-    public const int View = 14;
-    public const int ViewService = 15;
+    public const int Level = 10;
+    public const int Npc = 11;
+    public const int Player = 12;
+    public const int Position = 13;
+    public const int PositionListener = 14;
+    public const int Speed = 15;
+    public const int View = 16;
+    public const int ViewService = 17;
 
-    public const int TotalComponents = 16;
+    public const int TotalComponents = 18;
 
     public static readonly string[] componentNames = {
         "AnyCameraListener",
@@ -38,6 +40,8 @@ public static class GameComponentsLookup {
         "Destroyed",
         "Health",
         "HealthListener",
+        "Level",
+        "Npc",
         "Player",
         "Position",
         "PositionListener",
@@ -57,6 +61,8 @@ public static class GameComponentsLookup {
         typeof(DestroyedComponent),
         typeof(HealthComponent),
         typeof(HealthListenerComponent),
+        typeof(LevelComponent),
+        typeof(NpcComponent),
         typeof(PlayerComponent),
         typeof(PositionComponent),
         typeof(PositionListenerComponent),

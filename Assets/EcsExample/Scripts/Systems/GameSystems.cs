@@ -18,7 +18,7 @@
 		// Input
 		
 		// Update
-		Add(new LogHealthReactiveSystem(contexts));
+	
 		Add(new HealthReactiveSystem(contexts));
 		Add(new PositionMoveReactiveSystem(contexts));
 		Add(new ApplyDamageReactiveSystem(contexts));

@@ -18,5 +18,6 @@ public class InitializeNpcSystem : IInitializeSystem
 		entity.AddSpeed(npc.Speed);
 		entity.AddAsset(npc.AssetName);
 		entity.AddPosition(npc.StartPosition);
+		entity.isNpc = true;
 	}
 }

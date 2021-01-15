@@ -1,6 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Entitas;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class MeshColorReactiveSystem : ReactiveSystem<GameEntity>
 {
@@ -18,14 +20,26 @@ public class MeshColorReactiveSystem : ReactiveSystem<GameEntity>
 
 	protected override bool Filter(GameEntity entity)
 	{
-		return entity.hasView && !entity.isCamera;
+		return entity.hasView && !entity.isCamera && !entity.isLevel;
 	}
 
 	protected override void Execute(List<GameEntity> entities)
 	{
 		foreach (var entity in entities)
 		{
-			entity.view.Value.SetMeshColor(Random.ColorHSV());
+			entity.view.Value.SetMeshColor(GetColor(entity));
 		}
 	}
+
+	private Color GetColor(GameEntity entity)
+	{
+		if (entity.isNpc)
+			return Random.ColorHSV();
+
+		if (entity.isPlayer)
+			return _context.dataService.value.PlayerUnit.MeshColor;
+		
+		throw new Exception("No color getter for entity.creationIndex = " + entity.creationIndex);
+	}
+	
 }

@@ -15,5 +15,6 @@ public class InitializeLevelSystem : IInitializeSystem
 		var entity = _contexts.game.CreateEntity();
 		entity.AddAsset(_contexts.game.dataService.value.Level.AssetName);
 		entity.AddPosition(_contexts.game.dataService.value.Level.StartPosition);
+		entity.isLevel = true;
 	}
 }
