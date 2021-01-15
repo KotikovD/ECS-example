@@ -12,15 +12,51 @@
           <e p="AssemblyInfo.cs" t="Include" />
           <e p="EcsExample.asmdef" t="Include" />
           <e p="Generated" t="Include">
+            <e p="Components" t="Include">
+              <e p="DataServiceComponent.cs" t="Include" />
+              <e p="ViewServiceComponent.cs" t="Include" />
+            </e>
             <e p="Contexts.cs" t="Include" />
+            <e p="Events" t="Include">
+              <e p="Components" t="Include">
+                <e p="AnyCameraListenerComponent.cs" t="Include" />
+                <e p="AnyPlayerListenerComponent.cs" t="Include" />
+                <e p="HealthListenerComponent.cs" t="Include" />
+                <e p="PositionListenerComponent.cs" t="Include" />
+              </e>
+              <e p="GameEventSystems.cs" t="Include" />
+              <e p="Interfaces" t="Include">
+                <e p="IAnyCameraListener.cs" t="Include" />
+                <e p="IAnyPlayerListener.cs" t="Include" />
+                <e p="IHealthListener.cs" t="Include" />
+                <e p="IPositionListener.cs" t="Include" />
+              </e>
+              <e p="Systems" t="Include">
+                <e p="AnyCameraEventSystem.cs" t="Include" />
+                <e p="AnyPlayerEventSystem.cs" t="Include" />
+                <e p="HealthEventSystem.cs" t="Include" />
+                <e p="PositionEventSystem.cs" t="Include" />
+              </e>
+            </e>
             <e p="Feature.cs" t="Include" />
             <e p="Game" t="Include">
               <e p="Components" t="Include">
+                <e p="GameAnyCameraListenerComponent.cs" t="Include" />
+                <e p="GameAnyPlayerListenerComponent.cs" t="Include" />
+                <e p="GameAssetComponent.cs" t="Include" />
+                <e p="GameCameraComponent.cs" t="Include" />
                 <e p="GameColorComponent.cs" t="Include" />
+                <e p="GameDamageComponent.cs" t="Include" />
+                <e p="GameDataServiceComponent.cs" t="Include" />
                 <e p="GameDestroyedComponent.cs" t="Include" />
                 <e p="GameHealthComponent.cs" t="Include" />
+                <e p="GameHealthListenerComponent.cs" t="Include" />
+                <e p="GamePlayerComponent.cs" t="Include" />
                 <e p="GamePositionComponent.cs" t="Include" />
+                <e p="GamePositionListenerComponent.cs" t="Include" />
                 <e p="GameSpeedComponent.cs" t="Include" />
+                <e p="GameViewComponent.cs" t="Include" />
+                <e p="GameViewServiceComponent.cs" t="Include" />
               </e>
               <e p="GameAttribute.cs" t="Include" />
               <e p="GameComponentsLookup.cs" t="Include" />
@@ -38,29 +74,62 @@
           </e>
           <e p="Scripts" t="Include">
             <e p="Components" t="Include">
+              <e p="AssetComponent.cs" t="Include" />
+              <e p="CameraComponent.cs" t="Include" />
               <e p="ColorComponent.cs" t="Include" />
+              <e p="DamageComponent.cs" t="Include" />
               <e p="DestroyedComponent.cs" t="Include" />
               <e p="HealthComponent.cs" t="Include" />
+              <e p="PlayerComponent.cs" t="Include" />
               <e p="PositionComponent.cs" t="Include" />
               <e p="SpeedComponent.cs" t="Include" />
+              <e p="ViewComponent.cs" t="Include" />
             </e>
             <e p="Helpers" t="Include">
-              <e p="GameDataKeeper.cs" t="Include" />
               <e p="PathKeeper.cs" t="Include" />
+            </e>
+            <e p="Interfaces" t="Include">
+              <e p="IDataLoader.cs" t="Include" />
+              <e p="IDataService.cs" t="Include" />
+              <e p="IEventListener.cs" t="Include" />
+              <e p="IPrefabLoader.cs" t="Include" />
+              <e p="IView.cs" t="Include" />
+              <e p="IViewService.cs" t="Include" />
             </e>
             <e p="MonoBehaviour" t="Include">
               <e p="GameController.cs" t="Include" />
+              <e p="LabelBehaviour.cs" t="Include" />
+              <e p="UnityView.cs" t="Include" />
+            </e>
+            <e p="ReactiveSystems" t="Include">
+              <e p="ApplyDamageReactiveSystem.cs" t="Include" />
+              <e p="CreateViewByAssetReactiveSystem.cs" t="Include" />
+              <e p="HealthReactiveSystem.cs" t="Include" />
+              <e p="LogHealthReactiveSystem.cs" t="Include" />
+              <e p="MeshColorReactiveSystem.cs" t="Include" />
+              <e p="PositionMoveReactiveSystem.cs" t="Include" />
             </e>
             <e p="ScriptableObjects" t="Include">
+              <e p="Camera.cs" t="Include" />
+              <e p="Level.cs" t="Include" />
+              <e p="NpcUnit.cs" t="Include" />
               <e p="PlayerUnit.cs" t="Include" />
             </e>
+            <e p="Services" t="Include">
+              <e p="DataLoader.cs" t="Include" />
+              <e p="DataService.cs" t="Include" />
+              <e p="PrefabLoader.cs" t="Include" />
+              <e p="ViewService.cs" t="Include" />
+            </e>
             <e p="Systems" t="Include">
+              <e p="CameraViewSystem.cs" t="Include" />
               <e p="DestroyEntitySystem.cs" t="Include" />
               <e p="GameSystems.cs" t="Include" />
-              <e p="HealthSystem.cs" t="Include" />
+              <e p="InitializeDataSystem.cs" t="Include" />
+              <e p="InitializeLevelSystem.cs" t="Include" />
+              <e p="InitializeNpcSystem.cs" t="Include" />
               <e p="InitializePlayerSystem.cs" t="Include" />
-              <e p="LogHealthSystem.cs" t="Include" />
-              <e p="ReactiveLogHealthSystem.cs" t="Include" />
+              <e p="InitializeViewSystem.cs" t="Include" />
             </e>
             <e p="Tests" t="Include">
               <e p="CheckDescribeByDeath.cs" t="Include" />
@@ -229,6 +298,34 @@
             <e p="!Core" t="Include">
               <e p="NOTICES.txt" t="Include" />
             </e>
+          </e>
+        </e>
+        <e p="TextMesh Pro" t="Include">
+          <e p="Fonts" t="Include">
+            <e p="LiberationSans - OFL.txt" t="Include" />
+          </e>
+          <e p="Resources" t="Include">
+            <e p="LineBreaking Following Characters.txt" t="Include" />
+            <e p="LineBreaking Leading Characters.txt" t="Include" />
+            <e p="Shaders" t="Include">
+              <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+              <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+              <e p="TMP_Bitmap.shader" t="Include" />
+              <e p="TMP_SDF Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface.shader" t="Include" />
+              <e p="TMP_SDF.shader" t="Include" />
+              <e p="TMP_Sprite.shader" t="Include" />
+              <e p="TMPro.cginc" t="Include" />
+              <e p="TMPro_Properties.cginc" t="Include" />
+              <e p="TMPro_Surface.cginc" t="Include" />
+            </e>
+          </e>
+          <e p="Sprites" t="Include">
+            <e p="EmojiOne Attribution.txt" t="Include" />
           </e>
         </e>
       </e>

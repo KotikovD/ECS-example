@@ -8,27 +8,60 @@
 //------------------------------------------------------------------------------
 public static class GameComponentsLookup {
 
-    public const int Color = 0;
-    public const int Destroyed = 1;
-    public const int Health = 2;
-    public const int Position = 3;
-    public const int Speed = 4;
+    public const int AnyCameraListener = 0;
+    public const int AnyPlayerListener = 1;
+    public const int Asset = 2;
+    public const int Camera = 3;
+    public const int Color = 4;
+    public const int Damage = 5;
+    public const int DataService = 6;
+    public const int Destroyed = 7;
+    public const int Health = 8;
+    public const int HealthListener = 9;
+    public const int Player = 10;
+    public const int Position = 11;
+    public const int PositionListener = 12;
+    public const int Speed = 13;
+    public const int View = 14;
+    public const int ViewService = 15;
 
-    public const int TotalComponents = 5;
+    public const int TotalComponents = 16;
 
     public static readonly string[] componentNames = {
+        "AnyCameraListener",
+        "AnyPlayerListener",
+        "Asset",
+        "Camera",
         "Color",
+        "Damage",
+        "DataService",
         "Destroyed",
         "Health",
+        "HealthListener",
+        "Player",
         "Position",
-        "Speed"
+        "PositionListener",
+        "Speed",
+        "View",
+        "ViewService"
     };
 
     public static readonly System.Type[] componentTypes = {
+        typeof(AnyCameraListenerComponent),
+        typeof(AnyPlayerListenerComponent),
+        typeof(AssetComponent),
+        typeof(CameraComponent),
         typeof(ColorComponent),
+        typeof(DamageComponent),
+        typeof(DataServiceComponent),
         typeof(DestroyedComponent),
         typeof(HealthComponent),
+        typeof(HealthListenerComponent),
+        typeof(PlayerComponent),
         typeof(PositionComponent),
-        typeof(SpeedComponent)
+        typeof(PositionListenerComponent),
+        typeof(SpeedComponent),
+        typeof(ViewComponent),
+        typeof(ViewServiceComponent)
     };
 }

@@ -10,8 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 08a416d2ceace554ca33aa85ac24f3f0, type: 3}
-  m_Name: Unit
+  m_Name: PlayerUnit
   m_EditorClassIdentifier: 
   Health: 100
   Speed: 5
+  AssetName: Unit
   MeshColor: {r: 0.0990566, g: 0.53581494, b: 1, a: 0}
+  StartPosition: {x: 0, y: 0, z: 0}
+  CameraOffset: {x: 0, y: 3, z: -3}

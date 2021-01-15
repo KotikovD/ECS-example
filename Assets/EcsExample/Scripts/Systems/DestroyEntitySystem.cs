@@ -13,6 +13,7 @@ public class DestroyEntitySystem : IExecuteSystem
 	{
 		foreach (var entity in _group.GetEntities())
 		{
+			entity.view.Value.DestroyView();
 			entity.Destroy();
 		}
 	}

@@ -4,19 +4,22 @@
 public class InitializePlayerSystem : IInitializeSystem
 {
 	private Contexts _contexts;
-	private GameDataKeeper _gameDataKeeper;
 
-	public InitializePlayerSystem(Contexts contexts, GameDataKeeper gameDataKeeper)
+	public InitializePlayerSystem(Contexts contexts)
 	{
 		_contexts = contexts;
-		_gameDataKeeper = gameDataKeeper;
 	}
 
 	public void Initialize()
 	{
-		GameEntity e = _contexts.game.CreateEntity();
-		e.AddHealth(_gameDataKeeper.PlayerUnit.Health);
-		e.AddSpeed(_gameDataKeeper.PlayerUnit.Speed);
-		e.AddColor(_gameDataKeeper.PlayerUnit.MeshColor);
+		var player = _contexts.game.dataService.value.PlayerUnit;
+		GameEntity entity = _contexts.game.CreateEntity();
+		
+		entity.AddHealth(player.Health);
+		entity.AddSpeed(player.Speed);
+		entity.AddAsset(player.AssetName);
+		entity.AddPosition(player.StartPosition);
+		entity.isPlayer = true;
 	}
+	
 }

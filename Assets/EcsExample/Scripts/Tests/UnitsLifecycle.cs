@@ -4,14 +4,14 @@
 public class UnitsLifecycle
 {
 	private Contexts _contexts;
-	private HealthSystem _healthSys;
+	private HealthReactiveSystem _healthReactiveSys;
 	private GameEntity _entity;
 
 	[SetUp]
 	public void Init()
 	{
 		_contexts = new Contexts();
-		_healthSys = new HealthSystem(_contexts.game);
+		_healthReactiveSys = new HealthReactiveSystem(_contexts);
 		_entity = _contexts.game.CreateEntity();
 	}
 	
@@ -20,7 +20,7 @@ public class UnitsLifecycle
 	{
 		_entity.AddHealth(100);
 
-		_healthSys.Execute();
+		_healthReactiveSys.Execute();
 
 		Assert.False(_entity.isDestroyed);
 	}
@@ -30,7 +30,7 @@ public class UnitsLifecycle
 	{
 		_entity.AddHealth(0);
 
-		_healthSys.Execute();
+		_healthReactiveSys.Execute();
 
 		Assert.True(_entity.isDestroyed);
 	}
@@ -40,7 +40,7 @@ public class UnitsLifecycle
 	{
 		_entity.AddHealth(-1);
 
-		_healthSys.Execute();
+		_healthReactiveSys.Execute();
 
 		Assert.True(_entity.isDestroyed);
 	}

@@ -1,6 +1,5 @@
 ﻿using Entitas;
 
-	public class DestroyedComponent : IComponent
-	{
-		
-	}
+public class DestroyedComponent : IComponent
+{
+}
