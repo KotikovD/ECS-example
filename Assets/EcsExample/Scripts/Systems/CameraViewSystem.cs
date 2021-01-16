@@ -27,7 +27,7 @@ public class CameraViewSystem : IAnyPlayerListener, IPositionListener, IInitiali
 		_cameraData = _contexts.game.dataService.value.Camera;
 		_cameraEntity = _contexts.game.CreateEntity();
 		_cameraEntity.AddPosition(Vector3.zero);
-		_cameraEntity.AddAsset("MainCamera");
+		_cameraEntity.AddAsset(PathKeeper.Camera);
 		_cameraEntity.isCamera = true;
 
 		MoveCamera(_cachePlayer);

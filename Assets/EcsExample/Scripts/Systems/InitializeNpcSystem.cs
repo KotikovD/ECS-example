@@ -1,4 +1,5 @@
 ﻿using Entitas;
+using UnityEngine;
 
 public class InitializeNpcSystem : IInitializeSystem
 {
@@ -12,12 +13,17 @@ public class InitializeNpcSystem : IInitializeSystem
 	public void Initialize()
 	{
 		var npc = _contexts.game.dataService.value.NpcUnit;
-		var entity = _contexts.game.CreateEntity();
+		var pos = npc.StartPosition;
 		
-		entity.AddHealth(npc.Health);
-		entity.AddSpeed(npc.Speed);
-		entity.AddAsset(npc.AssetName);
-		entity.AddPosition(npc.StartPosition);
-		entity.isNpc = true;
+		for (int i = 0; i < npc.TotalNpcCount; i++)
+		{
+			var entity = _contexts.game.CreateEntity();
+			entity.AddHealth(npc.Health);
+			entity.AddSpeed(npc.Speed);
+			entity.AddAsset(npc.AssetName);
+			entity.AddPosition(pos += npc.StartPosition);
+			entity.isNpc = true;
+		}
+
 	}
 }
