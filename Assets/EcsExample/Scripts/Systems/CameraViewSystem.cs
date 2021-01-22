@@ -10,7 +10,7 @@ public class CameraViewSystem : IAnyPlayerListener, IPositionListener, IInitiali
 	private GameEntity _cameraEntity;
 	private GameEntity _cachePlayer;
 	private Camera _cameraData;
-	private TweenerCore<Vector3, Vector3[], Vector3ArrayOptions> _doTweenMover;
+	private Sequence _animationTween;
 
 
 	public CameraViewSystem(Contexts contexts)
@@ -25,10 +25,13 @@ public class CameraViewSystem : IAnyPlayerListener, IPositionListener, IInitiali
 		_cachePlayer.AddAnyPlayerListener(this);
 		
 		_cameraData = _contexts.game.dataService.value.Camera;
+		
 		_cameraEntity = _contexts.game.CreateEntity();
 		_cameraEntity.AddPosition(Vector3.zero);
-		_cameraEntity.AddAsset(PathKeeper.Camera);
 		_cameraEntity.isCamera = true;
+		var gameObject = GameObject.Find(PathKeeper.Camera);
+		var view = gameObject.GetComponent<UnityView>();
+		view.InitializeView(_cameraEntity);
 
 		MoveCamera(_cachePlayer);
 	}
@@ -54,7 +57,11 @@ public class CameraViewSystem : IAnyPlayerListener, IPositionListener, IInitiali
 		var endPosition = new []{entity.position.value + GetCameraOffset(entity)};
 		var duration = new []{_cameraData.LerpSpeed};
 		
-		_doTweenMover = DOTween.ToArray(() => _cameraEntity.position.value, _cameraEntity.ReplacePosition, endPosition, duration);
+		_animationTween?.Kill();
+		var tween = DOTween.Sequence();
+		tween.Append(DOTween.ToArray(() => _cameraEntity.position.value, _cameraEntity.ReplacePosition, endPosition,
+			duration).SetEase(Ease.Linear));
+		_animationTween = tween;
 	}
 	
 	private Vector3 GetCameraOffset(GameEntity entity)
