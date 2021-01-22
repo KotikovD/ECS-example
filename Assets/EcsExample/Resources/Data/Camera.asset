@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3fbeccec60b458f99476f2d764d72c3, type: 3}
   m_Name: Camera
   m_EditorClassIdentifier: 
-  LerpSpeed: 1
+  LerpSpeed: 0.4
   UnitOffset: {x: 0, y: 3, z: -3}
