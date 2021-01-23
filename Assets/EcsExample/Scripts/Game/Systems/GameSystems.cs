@@ -16,6 +16,8 @@
 		Add(new CameraViewSystem(contexts));
 		
 		// Input
+		Add(new InputMovementSystem(contexts));
+		Add(new ApplyPlayerUnitMovementSystem(contexts));
 		
 		// Update
 	

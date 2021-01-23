@@ -51,6 +51,8 @@
                 <e p="GameDestroyedComponent.cs" t="Include" />
                 <e p="GameHealthComponent.cs" t="Include" />
                 <e p="GameHealthListenerComponent.cs" t="Include" />
+                <e p="GameLevelComponent.cs" t="Include" />
+                <e p="GameNpcComponent.cs" t="Include" />
                 <e p="GamePlayerComponent.cs" t="Include" />
                 <e p="GamePositionComponent.cs" t="Include" />
                 <e p="GamePositionListenerComponent.cs" t="Include" />
@@ -65,6 +67,9 @@
               <e p="GameMatcher.cs" t="Include" />
             </e>
             <e p="Input" t="Include">
+              <e p="Components" t="Include">
+                <e p="InputPlayerUnitMoveComponent.cs" t="Include" />
+              </e>
               <e p="InputAttribute.cs" t="Include" />
               <e p="InputComponentsLookup.cs" t="Include" />
               <e p="InputContext.cs" t="Include" />
@@ -73,20 +78,56 @@
             </e>
           </e>
           <e p="Scripts" t="Include">
-            <e p="Components" t="Include">
-              <e p="AssetComponent.cs" t="Include" />
-              <e p="CameraComponent.cs" t="Include" />
-              <e p="ColorComponent.cs" t="Include" />
-              <e p="DamageComponent.cs" t="Include" />
-              <e p="DestroyedComponent.cs" t="Include" />
-              <e p="HealthComponent.cs" t="Include" />
-              <e p="PlayerComponent.cs" t="Include" />
-              <e p="PositionComponent.cs" t="Include" />
-              <e p="SpeedComponent.cs" t="Include" />
-              <e p="ViewComponent.cs" t="Include" />
+            <e p="Game" t="Include">
+              <e p="Components" t="Include">
+                <e p="AssetComponent.cs" t="Include" />
+                <e p="CameraComponent.cs" t="Include" />
+                <e p="ColorComponent.cs" t="Include" />
+                <e p="DamageComponent.cs" t="Include" />
+                <e p="DestroyedComponent.cs" t="Include" />
+                <e p="HealthComponent.cs" t="Include" />
+                <e p="LevelComponent.cs" t="Include" />
+                <e p="NpcComponent.cs" t="Include" />
+                <e p="PlayerComponent.cs" t="Include" />
+                <e p="PositionComponent.cs" t="Include" />
+                <e p="SpeedComponent.cs" t="Include" />
+                <e p="ViewComponent.cs" t="Include" />
+              </e>
+              <e p="ReactiveSystems" t="Include">
+                <e p="ApplyDamageReactiveSystem.cs" t="Include" />
+                <e p="CreateViewByAssetReactiveSystem.cs" t="Include" />
+                <e p="HealthReactiveSystem.cs" t="Include" />
+                <e p="MeshColorReactiveSystem.cs" t="Include" />
+                <e p="PositionMoveReactiveSystem.cs" t="Include" />
+              </e>
+              <e p="Services" t="Include">
+                <e p="DataLoader.cs" t="Include" />
+                <e p="DataService.cs" t="Include" />
+                <e p="PrefabLoader.cs" t="Include" />
+                <e p="ViewService.cs" t="Include" />
+              </e>
+              <e p="Systems" t="Include">
+                <e p="CameraViewSystem.cs" t="Include" />
+                <e p="DestroyEntitySystem.cs" t="Include" />
+                <e p="GameSystems.cs" t="Include" />
+                <e p="InitializeDataSystem.cs" t="Include" />
+                <e p="InitializeLevelSystem.cs" t="Include" />
+                <e p="InitializeNpcSystem.cs" t="Include" />
+                <e p="InitializePlayerSystem.cs" t="Include" />
+                <e p="InitializeViewSystem.cs" t="Include" />
+              </e>
             </e>
             <e p="Helpers" t="Include">
               <e p="PathKeeper.cs" t="Include" />
+            </e>
+            <e p="Input" t="Include">
+              <e p="Components" t="Include">
+                <e p="PlayerUnitMoveComponent.cs" t="Include" />
+              </e>
+              <e p="Systems" t="Include">
+                <e p="ApplyPlayerUnitMovementSystem.cs" t="Include" />
+                <e p="InputMovementSystem.cs" t="Include" />
+              </e>
             </e>
             <e p="Interfaces" t="Include">
               <e p="IDataLoader.cs" t="Include" />
@@ -101,35 +142,11 @@
               <e p="LabelBehaviour.cs" t="Include" />
               <e p="UnityView.cs" t="Include" />
             </e>
-            <e p="ReactiveSystems" t="Include">
-              <e p="ApplyDamageReactiveSystem.cs" t="Include" />
-              <e p="CreateViewByAssetReactiveSystem.cs" t="Include" />
-              <e p="HealthReactiveSystem.cs" t="Include" />
-              <e p="LogHealthReactiveSystem.cs" t="Include" />
-              <e p="MeshColorReactiveSystem.cs" t="Include" />
-              <e p="PositionMoveReactiveSystem.cs" t="Include" />
-            </e>
             <e p="ScriptableObjects" t="Include">
               <e p="Camera.cs" t="Include" />
               <e p="Level.cs" t="Include" />
               <e p="NpcUnit.cs" t="Include" />
               <e p="PlayerUnit.cs" t="Include" />
-            </e>
-            <e p="Services" t="Include">
-              <e p="DataLoader.cs" t="Include" />
-              <e p="DataService.cs" t="Include" />
-              <e p="PrefabLoader.cs" t="Include" />
-              <e p="ViewService.cs" t="Include" />
-            </e>
-            <e p="Systems" t="Include">
-              <e p="CameraViewSystem.cs" t="Include" />
-              <e p="DestroyEntitySystem.cs" t="Include" />
-              <e p="GameSystems.cs" t="Include" />
-              <e p="InitializeDataSystem.cs" t="Include" />
-              <e p="InitializeLevelSystem.cs" t="Include" />
-              <e p="InitializeNpcSystem.cs" t="Include" />
-              <e p="InitializePlayerSystem.cs" t="Include" />
-              <e p="InitializeViewSystem.cs" t="Include" />
             </e>
             <e p="Tests" t="Include">
               <e p="CheckDescribeByDeath.cs" t="Include" />
