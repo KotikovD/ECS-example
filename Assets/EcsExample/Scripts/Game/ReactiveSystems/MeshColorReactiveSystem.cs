@@ -20,7 +20,7 @@ public class MeshColorReactiveSystem : ReactiveSystem<GameEntity>
 
 	protected override bool Filter(GameEntity entity)
 	{
-		return entity.hasView && !entity.isCamera && !entity.isLevel;
+		return entity.isPlayer || entity.isNpc;
 	}
 
 	protected override void Execute(List<GameEntity> entities)
